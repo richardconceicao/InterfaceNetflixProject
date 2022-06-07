@@ -1,10 +1,10 @@
-:root{
+:root {
     --vermelho: #E50914;
     --preta: #141414;
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,12 +14,12 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
 
-header .container{
+header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,22 +33,22 @@ header .logo {
     font-size: 40px;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
 
 }
 
-header nav a:hover{
+header nav a:hover {
     color: #fff;
 }
 
 /* filme principal */
 
-.filme-principal{
+.filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/Ohomemdonorte.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/Ohomemdonorte.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
@@ -57,19 +57,19 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.filme-principal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.filme-principal .titulo{
+.filme-principal .titulo {
     margin-top: 10%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
+.botao {
+    background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
     padding: 15px 30px;
@@ -79,20 +79,30 @@ header nav a:hover{
     transition: 900ms ease all;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: white;
     color: black;
 }
 
-.botao i{
+.botao i {
     margin-right: 8px;
 }
 
-.container{
+.container {
     margin-left: 30px;
     margin-left: 10px;
 }
 
-.filme-principal .container{
+.filme-principal .container {
     width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
 }
